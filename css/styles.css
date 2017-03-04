@@ -3,15 +3,9 @@
 }
 
 h1 {
-	font-family: Brushstroke, fantasy;
-	color: #000000;
+	font-family: Impact, Charcoal, sans-serif
+	color: #44081A;
 	text-align: center;
-}
-
-body {
-	background-image: url("background.jpg");
-	background-color: #FEF5CA;
-
 }
 
 p {
@@ -19,73 +13,76 @@ p {
 	margin: 0;
 }
 
+body {
+    background-color: #BAE0ED;
+}
+
 .container {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
 	border: none;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	padding: 10px;
 }
 
 section {
-	border:	1px solid black;
-	background-color: #00FF99;
+  background-color: #868186;
+	border:	2px solid black;
 	width: 100%;
-	height: 200px;
-	font-family: Helvetica;
+	height: 250px;
+	font-family: "Lucida Console", Monaco, monospace;
 	color: black;
 	position: relative;
 	overflow: auto;
 }
 
 #chicken {
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-weight: bold;
+  font-size: 125%;
 	border: 1px solid black;
 	text-align: center;
 	width: 30%;
 	margin-left: 70%;
-	font-family: Georgia,sans-serif;
-	font-weight: bold;
-	font-size: 125%;
 	margin-bottom: 0;
 	margin-top: 0;
 	padding: 5px;
-	background-color: #FFFF00;
+	background-color: #DE6A8D;
 }
 
 #beef {
-	border: 1px solid black;
-	text-align: center;
-	width: 30%;
-	margin-left: 70%;
-	font-family: Georgia,sans-serif;
-	font-weight: bold;
-	font-size: 125%;
-	margin-bottom: 0;
-	margin-top: 0;
-	padding: 5px;
-	background-color: #FF1439;
+	font-family: "Arial Black", Gadget, sans-serif;
+  font-weight: bold;
+  font-size: 125%;
+  border: 1px solid black;
+  text-align: center;
+  width: 30%;
+  margin-left: 70%;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 5px;
+	background-color: #C3161F;
 }
 
 #sushi {
-	border: 1px solid black;
-	text-align: center;
-	width: 30%;
-	margin-left: 70%;
-	font-family: Georgia,sans-serif;
-	font-weight: bold;
-	font-size: 125%;
-	margin-bottom: 0;
-	margin-top: 0;
-	background-color: #6495ED;
-	color: white;
-	padding: 5px;
+	font-family: "Arial Black", Gadget, sans-serif;
+  font-weight: bold;
+  font-size: 125%;
+  border: 1px solid black;
+  text-align: center;
+  width: 30%;
+  margin-left: 70%;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 5px;
+	background-color: #DCDC1F;
+
 }
 
 .row {
-	width: 100%;
+  width: 100%;
 }
-
 /* Desktop view */
 
 @media (min-width: 992px) {
